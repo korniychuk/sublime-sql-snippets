@@ -3,11 +3,15 @@ MySQL Snippets - Sublime Plugin
 
 A sublime plugin complete with MySQL snippets
 
+
+**Quick review: https://youtu.be/rV2Zb7a6QXE**
+
 Feel free to let me know what else you want added via:
 
 - [Issues](https://github.com/ancor-dev/sublime-sql-snippets/issues)
 
 ## What's included - contents
+- [Installation](#installation)
 - [Database](#database)
 - [Table](#table)
 - [Table components](#create-table-components)
@@ -23,6 +27,18 @@ Feel free to let me know what else you want added via:
 - [Constructions](#constructions)
 - [Other](#other)
 
+### Installation
+
+There are 3 methods for installing this plugin.
+
+1. Search for "MySQL Snippets" via the "Package Control: Install Packages" menu.
+**Note:** If you don't have Sublime Package Control installed, you can find out how to install it here [https://sublime.wbond.net/installation](https://sublime.wbond.net/installation)
+
+2. Clone the repository into your Sublime Text 2/3 packages directory.
+`git clone https://github.com/ancor-dev/sublime-sql-snippets.git`
+
+3. Download the .zip file and unzip it into your Sublime Text 2/3 packages directory.
+**Note:** You can find your Sublime Text 2/3 packages directory by going to Preferences > Browse Packages.
 
 ### Database
 |Snippet Code     | Description    |
