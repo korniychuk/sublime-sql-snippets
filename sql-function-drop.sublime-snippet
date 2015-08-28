@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+DROP FUNCTION IF EXISTS `${1:name}`;
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>s-func-drop</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sql</scope>
+</snippet>

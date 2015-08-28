@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+SELECT
+    `${4:${3/(.).*/$1/}}`.${1:*}
+  FROM `$3` AS `${4:${3/(.).*/$1/}}`
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>s-s</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.sql</scope>
+</snippet>

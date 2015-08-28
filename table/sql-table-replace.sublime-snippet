@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+DROP TABLE IF EXISTS `${1:table_name}`;
+CREATE TABLE `$1` (
+  `${2:id}` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `${3:name}` ${4:VARCHAR(255)},
+  PRIMARY KEY `pk_$2`(`$2`)
+) ENGINE = InnoDB;
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>s--table</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.sql</scope>
+</snippet>
+

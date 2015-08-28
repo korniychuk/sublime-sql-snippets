@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+ALTER TABLE `${1:table}` ADD ${2:INDEX} `${3:index_name}`(`${4:field}` ASC$5);
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>s-alter-index</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.sql</scope>
+</snippet>

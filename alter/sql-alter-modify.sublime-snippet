@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+ALTER TABLE `${1:table}` MODIFY `${2:field}` ${3:NEW-FIELD-TYPE}${4: NOT NULL} ${5:AFTER `${6:field}`};
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>s-alter-modify</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.sql</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+ALTER TABLE `${1:table}` CHANGE `${2:old_name}` `${3:new_name}` ${4:new_type}${5: NOT NULL};
+]]></content>
+<!-- ALTER TABLE `${1:table}` RENAME COLUMN `${2:old_name}` TO `${3:new_name}`; -->
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>s-alter-change</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.sql</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+INNER JOIN `$1` AS `${2:${1/(.)[^_]*(?:_(.))?.*/$1$2/}}` ON ( `${2:${1/(.)[^_]*(?:_(.))?.*/$1$2/}}`.`${4:id}` = `$5`.`${6:id}` )
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>s-j</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.sql</scope>
+</snippet>

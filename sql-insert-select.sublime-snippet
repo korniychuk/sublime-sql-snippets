@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+INSERT INTO `${1:table}` SELECT ${2:*} FROM ${3:`${4:database}`.}`${5:$1}`;
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>s-ifrom</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.sql</scope>
+</snippet>

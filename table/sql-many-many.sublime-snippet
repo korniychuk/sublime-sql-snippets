@@ -1,0 +1,31 @@
+<snippet>
+  <content><![CDATA[
+CREATE INDEX `$4_idx` ON `$1` (`$4` ASC);
+CREATE INDEX `$5_idx` ON `$2` (`$5` ASC);
+
+CREATE TABLE IF NOT EXISTS `${3:$1_$2}` (
+  `${1:table1}_${4:id}` INT UNSIGNED NOT NULL,
+  `${2:table2}_${5:id}` INT UNSIGNED NOT NULL,
+
+  PRIMARY KEY (`$1_$4`, `$2_$5`),
+  INDEX `fk_$3_$1_$4_idx` (`$1_$4` ASC),
+  INDEX `fk_$3_$2_$5_idx` (`$2_$5` ASC),
+
+  CONSTRAINT `fk_$3_$1`
+    FOREIGN KEY (`$1_$4`)
+    REFERENCES `$1` (`$4`)
+    ON DELETE ${6:NO ACTION}
+    ON UPDATE CASCADE,
+
+  CONSTRAINT `fk_$3_$2`
+    FOREIGN KEY (`$2_$5`)
+    REFERENCES `$2` (`$5`)
+    ON DELETE $6
+    ON UPDATE CASCADET
+) ENGINE = InnoDB;
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>s-many-many</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.sql</scope>
+</snippet>

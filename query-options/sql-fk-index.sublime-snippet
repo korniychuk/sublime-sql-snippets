@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+INDEX `fk_$1_$3_idx` (`$2` ASC),
+CONSTRAINT `fk_${1:the_table}_$3`
+  FOREIGN KEY (`${2:foreign_key}`)
+  REFERENCES `${3:far_table}` (`${4:far_key}`)
+  ON DELETE NO ACTION
+  ON UPDATE CASCADE
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>s--fk</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.sql</scope>
+</snippet>
