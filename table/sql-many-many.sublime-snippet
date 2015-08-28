@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `${3:$1_$2}` (
     FOREIGN KEY (`$2_$5`)
     REFERENCES `$2` (`$5`)
     ON DELETE $6
-    ON UPDATE CASCADET
+    ON UPDATE CASCADE
 ) ENGINE = InnoDB;
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
