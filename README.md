@@ -12,8 +12,10 @@ Feel free to let me know what else you want added via:
 - [Table](#table)
 
 ### Database
-- **s-db** create a new database
-- **s-db-drop** delete the database
+|Snippet Code     | Description    |
+|:---------------:|:--------------:|
+|s-db             | create a new database |
+|s-db-drop        | delete the database |
 
 ### Table
 - 
