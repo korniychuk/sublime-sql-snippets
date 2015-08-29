@@ -4,7 +4,7 @@ MySQL Snippets - Sublime Plugin
 A sublime plugin complete with MySQL snippets
 
 
-**Quick review: https://youtu.be/rV2Zb7a6QXE**
+**Quick review: http://youtu.be/rQoqbEiFNoU**
 
 Feel free to let me know what else you want added via:
 
