@@ -153,6 +153,8 @@ All `alter` snippets begining from ``s-alter-*`` prefix, like `s-alter-add`.
 |table-rename|rename the table|
 |table-charset|change table charset and collate|
 |db-charset|change database charset and collate|
+|fk|add foreign key to the table|
+|-fk|add foreign key to the table with index|
 
 
 ### Trigger
