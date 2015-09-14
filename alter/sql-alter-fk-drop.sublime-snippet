@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+ALTER TABLE `$1`
+DROP FOREIGN KEY `${2:fk_${3:the_table}_${4:far_table}}`;
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>s-alter-fk-drop</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.sql</scope>
+</snippet>
