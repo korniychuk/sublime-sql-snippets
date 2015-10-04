@@ -25,6 +25,7 @@ Feel free to let me know what else you want added via:
 - [Procedure](#procedure)
 - [Function](#function)
 - [Constructions](#constructions)
+- [Show](#show)
 - [Other](#other)
 
 ### Installation
@@ -53,7 +54,6 @@ There are 3 methods for installing this plugin.
 |s--table | create simple table with INT primary key, but first remove the old table|
 |s-table-tmp| create simple temporary table with engine=memory|
 |s--table-tmp| the same, but first remove the old table|
-|s-desc|details of the table(*SHOW FULL COLUMNS FROM*)|
 
 **s-many-many** - Very powerful snippet! Make table for relation *many-to-many*, make two foreign key constrain, and two indexes in it and make two indexes in corresponding tables
 
@@ -171,6 +171,7 @@ All `alter` snippets begining from ``s-alter-*`` prefix, like `s-alter-add`.
 |-----------------|----------------|
 |s-proc|create new storage procedure|
 |s-proc-drop|drop the storage procedure|
+|s-proc-list|show procedures list(only current database)|
 
 ### Function
 
@@ -178,6 +179,12 @@ All `alter` snippets begining from ``s-alter-*`` prefix, like `s-alter-add`.
 |-----------------|----------------|
 |s-func|create new function|
 |s-func-drop|drop the function|
+|s-func-list|show functions list(only current database)|
+
+### Show
+|s-hcols|details of the table (*SHOW FULL COLUMNS FROM*)|
+|s-hcreate|show command for creating the table (*SHOW CREATE TABLE ...*)|
+|s-hidx|show indexes for the table (*SHOW INDEX FROM ...*)|
 
 ### Constructions
 
