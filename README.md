@@ -182,9 +182,12 @@ All `alter` snippets begining from ``s-alter-*`` prefix, like `s-alter-add`.
 |s-func-list|show functions list(only current database)|
 
 ### Show
+
+|Snippet Code     | Description    |
+|-----------------|----------------|
 |s-hcols|details of the table (*SHOW FULL COLUMNS FROM ...*)|
-|s-hcreate|show command for creating the table (*SHOW CREATE TABLE ...*)|
-|s-hidx|show indexes for the table (*SHOW INDEX FROM ...*)|
+|s-hcreate|show command for creating the table|
+|s-hidx|show indexes for the table|
 
 ### Constructions
 
