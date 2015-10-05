@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-SHOW INDEX FROM `${1:table}`;
+${2:SHOW INDEX FROM `${1:table}`;}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>s-hidx</tabTrigger>
