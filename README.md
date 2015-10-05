@@ -171,7 +171,7 @@ All `alter` snippets begining from ``s-alter-*`` prefix, like `s-alter-add`.
 |-----------------|----------------|
 |s-proc|create new storage procedure|
 |s-proc-drop|drop the storage procedure|
-|s-proc-list|show procedures list(only current database)|
+|s-proc-list|show stored procedures list(only current database)|
 
 ### Function
 
@@ -179,7 +179,7 @@ All `alter` snippets begining from ``s-alter-*`` prefix, like `s-alter-add`.
 |-----------------|----------------|
 |s-func|create new function|
 |s-func-drop|drop the function|
-|s-func-list|show functions list(only current database)|
+|s-func-list|show list of user-defined functions(only current database)|
 
 ### Show
 

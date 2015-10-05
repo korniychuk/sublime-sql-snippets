@@ -5,8 +5,10 @@ MySQL Snippets - Has been updated ! -> v1.3.0
 New Features
 ------------------------------------------------------------
 - New snippets:
-	* s-hcreate - show command for creating the table (SHOW CREATE TABLE ...)
-	* s-hidx    - show indexes for the table (SHOW INDEX FROM ...)
+	* s-hcreate   - show command for creating the table (SHOW CREATE TABLE ...)
+	* s-hidx      - show indexes for the table (SHOW INDEX FROM ...)
+	* s-proc-list - view a list of stored procedures
+	* s-func-list - view a list of user-defined functions
 
 - Renamed snippets
 	* s-desc -> s-hcols - details of the table (SHOW FULL COLUMNS FROM ...)
