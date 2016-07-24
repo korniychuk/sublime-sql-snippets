@@ -1,0 +1,31 @@
+============================================================
+MySQL Snippets - Has been updated ! -> v1.5.0
+============================================================
+
+New Features
+------------------------------------------------------------
+- New snippets:
+	* s--trig      - replace trigger(drop and create new)
+	* s--func      - replace function(drop and create new)
+	* s--proc      - replace procedure(drop and create new)
+	* s-trig-list  - list triggers for table
+  * s-trig--list - list triggers for table(also specify DB)
+
+
+- Renamed snippets:
+	* s-alter-index      -> s-alter-idx - add an index to the table
+	* s-alter-index-drop -> s-alter-idx-drop - drop the index from the table
+	* s-trigger      -> s-trig - create new trigger
+	* s-trigger-drop -> s-trig-drop - drop the trigger
+
+
+- Fixed bugs:
+	* s-alter-fk  - fixed missing ADD keyword
+	* s-alter--fk - fixed missing ADD keyword
+
+
+- COMING SOON - snippets for working with users and privileges
+
+------------------------------------------------------------
+Documentation, examples & issue filing can be found here:
+https://github.com/ancor-dev/sublime-sql-snippets

@@ -147,8 +147,8 @@ All `alter` snippets begining from ``s-alter-*`` prefix, like `s-alter-add`.
 
 |Snippet Code     | Description    |
 |-----------------|----------------|
-|index|add an index to the table|
-|index-drop|drop the index from the table|
+|idx|add an index to the table|
+|idx-drop|drop the index from the table|
 |order|sort the table by column(yes it indeed possible!)|
 |table-rename|rename the table|
 |table-charset|change table charset and collate|
@@ -162,14 +162,18 @@ All `alter` snippets begining from ``s-alter-*`` prefix, like `s-alter-add`.
 
 |Snippet Code     | Description    |
 |-----------------|----------------|
-|s-trigger|create new trigger|
-|s-trigger-drop|drop the trigger|
+|s-trig|create new trigger|
+|s--trig|replace trigger(drop and create new)|
+|s-trig-list|list triggers for table|
+|s-trig--list|list triggers for table(also specify DB)|
+|s-trig-drop|drop the trigger|
 
 ### Procedure
 
 |Snippet Code     | Description    |
 |-----------------|----------------|
 |s-proc|create new storage procedure|
+|s--proc|replace procedure(drop and create new)|
 |s-proc-drop|drop the storage procedure|
 |s-proc-list|show stored procedures list(only current database)|
 
@@ -178,6 +182,7 @@ All `alter` snippets begining from ``s-alter-*`` prefix, like `s-alter-add`.
 |Snippet Code     | Description    |
 |-----------------|----------------|
 |s-func|create new function|
+|s--func|replace function(drop and create new)|
 |s-func-drop|drop the function|
 |s-func-list|show list of user-defined functions(only current database)|
 

@@ -1,9 +1,14 @@
 <snippet>
   <content><![CDATA[
-ALTER TABLE `${1:table}` ADD ${2:INDEX} `${3:index_name}`(`${4:field}` ASC$5);
+DROP PROCEDURE IF EXISTS `${1:procedure_name}`;
+CREATE PROCEDURE `${1}`(
+`${2:arg_name}` ${3:INT}${4:,}
+) BEGIN
+  $5
+END;
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>s-alter-idx</tabTrigger>
+  <tabTrigger>s--proc</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>source.sql</scope>
 </snippet>
