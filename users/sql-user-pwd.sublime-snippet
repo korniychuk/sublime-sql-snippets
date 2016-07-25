@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+SET PASSWORD ${1:FOR '${2:username}'@'${3:localhost}'}= PASSWORD('${4:password}');
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>s-user-pwd</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.sql</scope>
+  <description>(change user password)</description>
+</snippet>

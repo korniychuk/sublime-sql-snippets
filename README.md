@@ -21,11 +21,12 @@ Feel free to let me know what else you want added via:
 - [Update](#update)
 - [Delete](#delete)
 - [Alter](#alter---modify-anything)
-- [Triggers](#trigger)
+- [Trigger](#trigger)
 - [Procedure](#procedure)
 - [Function](#function)
 - [Constructions](#constructions)
 - [Show](#show)
+- [User](#user)
 - [Other](#other)
 
 ### Installation
@@ -195,6 +196,18 @@ All `alter` snippets begining from ``s-alter-*`` prefix, like `s-alter-add`.
 |-----------------|----------------|
 |s-if|create `if`  statement|
 |s--if|create `if else` statement|
+
+
+### User
+
+|Snippet Code     | Description    |
+|-----------------|----------------|
+|s-user-list|list all users|
+|s-user-add|create a new user|
+|s-user--add|create a new user with a password (short access `s-u--`)|
+|s-user--add-hash|create new user with a password by hash|
+|s-user-drop|remove user|
+|s-user-pwd|change user password|
 
 ### Other
 

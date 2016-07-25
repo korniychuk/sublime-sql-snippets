@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+CREATE USER '${1:username}'@'${2:localhost}' IDENTIFIED BY PASSWORD '*832EB84CB764129D05D498ED9CA7E5CE9B8F83EB';
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>s-user--add-hash</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.sql</scope>
+  <description>(new user, hashed password)</description>
+</snippet>

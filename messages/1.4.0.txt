@@ -1,0 +1,26 @@
+============================================================
+MySQL Snippets - Has been updated ! -> v1.4.0
+============================================================
+
+New Features
+------------------------------------------------------------
+- New snippets:
+	* s-user-list      - list all users
+	* s-user-add       - create a new user
+	* s-user--add      - create a new user with a password (short access `s-u--`)
+	* s-user--add-hash - create new user with a password by hash
+	* s-user-drop      - remove user
+	* s-user-pwd       - change user password
+
+- COMING SOON - snippets for working with user privileges and 3 new releases!
+
+------------------------------------------------------------
+Documentation, examples & issue filing can be found here:
+https://github.com/ancor-dev/sublime-sql-snippets
+
+
+------------------------------------------------------------
+Do you like MySQL Snippets? :)
+
+- Put asterisks on github
+- Tell your friends about this
