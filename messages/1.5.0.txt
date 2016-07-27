@@ -15,7 +15,7 @@ New Features
 - Bug fixes
   * s-user-pwd - space added before '=' char
 
-- COMING SOON - snippets for working with user privileges and 3 new releases!
+- COMING SOON - snippets for syntactic construction and 2 new releases!
 
 
 ------------------------------------------------------------
