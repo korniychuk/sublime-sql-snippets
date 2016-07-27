@@ -1,0 +1,30 @@
+============================================================
+MySQL Snippets - Has been updated ! -> v1.5.0
+============================================================
+
+New Features
+------------------------------------------------------------
+- New snippets:
+	* s-priv-refresh  - command `flush priveleges`
+	* s-priv-add      - add some privileges to user
+	* s-priv-add-all  - add _all_ privileges to user
+	* s-priv-drop     - remove some privileges from user
+	* s-priv-drop-all - remove _all_ privileges from user
+	* s-priv-list     - show list of user privileges
+
+- Bug fixes
+  * s-user-pwd - space added before '=' char
+
+- COMING SOON - snippets for working with user privileges and 3 new releases!
+
+
+------------------------------------------------------------
+Documentation, examples & issue filing can be found here:
+https://github.com/ancor-dev/sublime-sql-snippets
+
+
+------------------------------------------------------------
+Do you like MySQL Snippets? Tell me "thank you"! :)
+
+- Put a star on github (https://github.com/ancor-dev/sublime-sql-snippets)
+- Tell your friends about MySQL Snippets

@@ -27,6 +27,7 @@ Feel free to let me know what else you want added via:
 - [Constructions](#constructions)
 - [Show](#show)
 - [User](#user)
+- [Privileges](#privileges)
 - [Other](#other)
 
 ### Installation
@@ -208,6 +209,17 @@ All `alter` snippets begining from ``s-alter-*`` prefix, like `s-alter-add`.
 |s-user--add-hash|create new user with a password by hash|
 |s-user-drop|remove user|
 |s-user-pwd|change user password|
+
+### Privileges
+
+|Snippet Code     | Description    |
+|-----------------|----------------|
+|s-priv-refresh|command `flush priveleges`|
+|s-priv-add|add some privileges to user|
+|s-priv-add-all|add _all_ privileges to user|
+|s-priv-drop|remove some privileges from user|
+|s-priv-drop-all|remove _all_ privileges from user|
+|s-priv-list|show list of user privileges|
 
 ### Other
 

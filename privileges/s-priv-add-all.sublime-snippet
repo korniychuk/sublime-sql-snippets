@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+GRANT ALL PRIVILEGES ON *.* TO '${4:user_name}'@'${5:localhost}';
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>s-priv-add-all</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sql</scope>
+	<description>(add all privileges)</description>
+</snippet>
