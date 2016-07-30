@@ -1,12 +1,14 @@
 <snippet>
 	<content><![CDATA[
-IF `${1:var}` ${2:=} ${3:value} THEN
-	${4:-- body}
-END IF;
+REPEAT
+	BEGIN
+		${0:-- Your code ...}
+	END;
+UNTIL `${1:var_name}` ${2:>} ${3:10} END REPEAT;
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>s-if</tabTrigger>
+	<tabTrigger>s--repeat</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.sql</scope>
-	<description>(if ...)</description>
+	<description>(loop begin ...)</description>
 </snippet>

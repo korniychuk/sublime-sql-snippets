@@ -1,0 +1,65 @@
+============================================================
+MySQL Snippets - Has been updated. A great update! -> v1.6.0
+============================================================
+
+New Features
+------------------------------------------------------------
+- New snippets:
+	* s--func      - replace function(drop and create new)
+	* s--proc      - replace procedure(drop and create new)
+	* s--trig      - replace trigger(drop and create new)	
+
+	* s-trig-list  - list triggers for table
+  * s--trig-list - list triggers for table(also specify DB)
+
+  * s-dec        - declare a variable|
+  * s--dec       - declare a variable with default value|
+  * s-dec-s      - declare a *string*(VARCHAR) variable|
+  * s--dec-s     - declare a *string*(VARCHAR) variable with default value |
+  * s-dec-h      - declare a CONTINUE HANDLER FOR SQLSTATE|
+  * s-dec-cur    - declare a cursor|
+
+  * s-case       - CASE var_name WHEN 'value' THEN ... END CASE - value based
+  * s-case-w     - WHEN 'value' THEN ... ; - value based
+  * s-case-wb    - WHEN 'value' THEN BEGIN ... END; - value based
+  * s--case      - CASE WHEN var_name = 'value' THEN ... END CASE - condition based
+  * s--case-w    - WHEN var_name = 'value' THEN ... ; - condition based
+  * s--case-wb   - WHEN var_name = 'value' THEN BEGIN ... END; - condition based
+
+  * s-loop       - LOOP ... END LOOP - Complex snippet. With additional logic!   * s-repeat     - REPEAT ... UNTIL ... END REPEAT construct
+  * s--repeat    - REPEAT BEGIN ... END; UNTIL ... END REPEAT construct
+  * s-cur        - powerful complex snippet! Makes ready to use cursor
+
+  * s-ss         - SELECT '...'; select a value
+  * s-sv         - SELECT `...`; select a variable
+
+  * s-alter-uk   - add unique key to exists table
+  * s-hrel       - show relations of a table (using `information_schema`) 
+
+
+- Renamed snippets:
+	* s-alter-index      -> s-alter-idx - add an index to the table
+	* s-alter-index-drop -> s-alter-idx-drop - drop the index from the table
+	* s-trigger          -> s-trig - create new trigger
+	* s-trigger-drop     -> s-trig-drop - drop the trigger
+	* s-user--add        -> s--user-add - create a new user, with password
+	* s-user--add-hash   -> s-user-add-hash - create new user with a password by hash
+
+
+- Fixed bugs:
+	* s-alter-fk  - fixed missing ADD keyword
+	* s-alter--fk - fixed missing ADD keyword
+
+
+- COMING SOON - nice main-map for all snippets and website for the plugin
+
+------------------------------------------------------------
+Documentation, examples & issue filing can be found here:
+https://github.com/ancor-dev/sublime-sql-snippets
+
+
+------------------------------------------------------------
+Do you like MySQL Snippets? Tell me "thank you"! :)
+
+- Put a star on github (https://github.com/ancor-dev/sublime-sql-snippets)
+- Tell your friends about MySQL Snippets

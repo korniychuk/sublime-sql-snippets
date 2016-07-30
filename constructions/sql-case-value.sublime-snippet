@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+CASE `${2:var_name}`
+	${1:-- Example:
+	-- --------------------------------------------------------------------------
+	-- WHEN 'my_val' THEN SELECT 'case my_val';
+	--
+	-- WHEN 'my_val_2' THEN BEGIN
+	--   SELECT 'case my_val_2';
+	-- END;
+	--
+	-- ELSE SELECT 'case default';
+	-- --------------------------------------------------------------------------
+	-- you can use snippets for create a case
+	--   s--case-w  - When
+	--   s--case-wb - When Block
+	}${3:ELSE $0;}
+END CASE;
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>s-case</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sql</scope>
+	<description>(case `var` ... end case;)</description>
+</snippet>

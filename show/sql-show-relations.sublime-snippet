@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+${0:SELECT CONCAT(
+	`constraint_name`, ' : ',
+	`table_name`, '.', `column_name`, ' -> ', 
+  `referenced_table_name`, '.', `referenced_column_name`
+) AS `relations_list`
+FROM `information_schema`.`key_column_usage`
+WHERE `table_schema` = ${1:DATABASE()}
+	AND `table_name` = '${2:table_name}'
+  AND `referenced_table_name` IS NOT NULL;
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>s-hrel</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.sql</scope>
+  <description>(show relations table)</description>
+</snippet>
+

@@ -6,4 +6,5 @@ ${2:SHOW CREATE TABLE `${1:table}`;}
   <tabTrigger>s-hcreate</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>source.sql</scope>
+  <description>(show create signature)</description>
 </snippet>

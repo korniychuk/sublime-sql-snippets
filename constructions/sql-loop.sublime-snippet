@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+`${1:label_name}`: LOOP
+	SET `${10:var_name}` = `${10}` ${11:+} ${12:1};
+
+	${0:-- Your code ...}
+
+	IF `${10}` ${20:>=} ${22:10} THEN
+		LEAVE `${1:label_name}`;
+	END IF;
+END LOOP `${1:label_name}`;
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>s-loop</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sql</scope>
+	<description>(loop ... end loop)</description>
+</snippet>

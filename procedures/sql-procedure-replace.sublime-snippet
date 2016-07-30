@@ -1,10 +1,14 @@
 <snippet>
   <content><![CDATA[
-CREATE USER '${1:username}'@'${2:localhost}' IDENTIFIED BY '${3:password}';
+DROP PROCEDURE IF EXISTS `${1:procedure_name}`;
+CREATE PROCEDURE `${1}`(
+`${2:arg_name}` ${3:INT}${4:,}
+) BEGIN
+  $5
+END;
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>s-user--add</tabTrigger>
+  <tabTrigger>s--proc</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>source.sql</scope>
-  <description>(new user, password)</description>
 </snippet>

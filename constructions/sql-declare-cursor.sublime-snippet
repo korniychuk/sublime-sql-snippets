@@ -1,12 +1,10 @@
 <snippet>
 	<content><![CDATA[
-IF `${1:var}` ${2:=} ${3:value} THEN
-	${4:-- body}
-END IF;
+DECLARE `${1:cursor_name}` FOR ${0:-- SELECT ...};
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>s-if</tabTrigger>
+	<tabTrigger>s-dec-cur</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.sql</scope>
-	<description>(if ...)</description>
+	<description>(declare cursor)</description>
 </snippet>

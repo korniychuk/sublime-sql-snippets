@@ -12,3 +12,9 @@ Text versions 2 & 3.
 
 Documentation, examples & issue filing can be found here:
 https://github.com/ancor-dev/sublime-sql-snippets
+
+------------------------------------------------------------
+Do you like MySQL Snippets? Tell me "thank you"! :)
+
+- Put a star on github (https://github.com/ancor-dev/sublime-sql-snippets)
+- Tell your friends about MySQL Snippets

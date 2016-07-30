@@ -1,12 +1,10 @@
 <snippet>
 	<content><![CDATA[
-IF `${1:var}` ${2:=} ${3:value} THEN
-	${4:-- body}
-END IF;
+WHEN `${1:var_name}` ${2:=} '${3:value}' THEN ${0:-- SELECT 'case $3'};
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>s-if</tabTrigger>
+	<tabTrigger>s--case-w</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.sql</scope>
-	<description>(if ...)</description>
+	<description>(when `...` = '...' then ...)</description>
 </snippet>

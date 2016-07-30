@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+DECLARE `${5:var_1}` ${7:VARCHAR(255)};
+DECLARE `${10:done}` INT DEFAULT 0;
+DECLARE `${30:cur}` CURSOR FOR ${40:SELECT `User` FROM `mysql`.`user`};
+DECLARE CONTINUE HANDLER FOR SQLSTATE '02000' SET `${10:done}` = 1;
+
+OPEN `${30:cur}`;
+REPEAT
+  FETCH `${30:cur}` INTO `${5:var_1}`;
+  IF NOT `${10:done}` THEN
+  	${0:-- Your code ...
+  	SELECT `${5:var_1}`;
+  	}
+  END IF;
+UNTIL `${10:done}` END REPEAT;
+CLOSE `${30:cur}`;
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>s-cur</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sql</scope>
+	<description>(cursor full)</description>
+</snippet>
